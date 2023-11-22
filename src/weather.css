@@ -1,0 +1,54 @@
+/* Weather.css */
+
+.weather-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    height: 1116px;
+    z-index: -1;
+    background-color: rgb(107, 225, 255);
+  }
+  
+  .weather-container {
+    height: 100vh;
+    font-family: fantasy;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: large;
+    text-align: center;
+    width: 400px;
+    height: 700px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2); 
+  }
+  
+  .get-weather-button {
+    opacity: 0%;
+   /* margin-top: 30px;
+    border-radius: 30px;
+    height: 30px;
+    width: 170px;
+    font-family: fantasy;*/
+  }
+  
+  .info {
+    margin-left: 0px;
+    text-align: center;
+  }
+  
+  .get-weather-button:hover {
+    cursor: pointer;
+    transform: scale(1, 1.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    background: linear-gradient(to bottom, #00bfff, #f79fff); 
+
+  }
+  
+  input {
+    font-family: fantasy;
+    text-align: center;
+  }
+  
