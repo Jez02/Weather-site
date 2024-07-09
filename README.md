@@ -1,3 +1,6 @@
+
+![wapp](https://github.com/Jez02/Weather-site/assets/173711586/4bdb1425-3504-4b2c-b280-b0b63f961750)
+
 # Getting Started with Create React App
 
 
